@@ -146,6 +146,8 @@ MonoBehaviour:
   - {fileID: 5274085003973573611, guid: b47639283f1212f4c9396d7b11200e49, type: 3}
   - {fileID: 8705682249264953968, guid: 1577e82ca2b881b48ae3c1fe958b10d6, type: 3}
   - {fileID: 8469448758903479976, guid: 197484ef8d870524db62139b29b8a12a, type: 3}
+  _secretSound: {fileID: 5829473318784722506, guid: 5e4f2dc97b8c5084f84b57a716b641ad,
+    type: 3}
 --- !u!4 &865156860
 Transform:
   m_ObjectHideFlags: 0

@@ -67,12 +67,12 @@
     <Compile Include="Assets\placeForArrow.cs" />
     <Compile Include="Assets\RedArrow.cs" />
     <Compile Include="Assets\Scripts\ChooseCountOfPlayers.cs" />
+    <Compile Include="Assets\Scripts\countChooser.cs" />
+    <Compile Include="Assets\Scripts\countChooserElement.cs" />
     <Compile Include="Assets\Scripts\FirstMenu.cs" />
     <Compile Include="Assets\Scripts\GameWorker.cs" />
     <Compile Include="Assets\Scripts\ItsMenu.cs" />
     <Compile Include="Assets\Scripts\MenuWorker.cs" />
-    <Compile Include="Assets\Sprites\countChooser.cs" />
-    <Compile Include="Assets\Sprites\countChooserElement.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Admin/Documents/Test11/RPANDPR/KolizeyUebanov/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
