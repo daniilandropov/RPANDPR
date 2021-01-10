@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -7,6 +8,10 @@ public class countChooser : MonoBehaviour
 {
     [SerializeField]
     private List<countChooserElement> _countChooserElements;
+
+    [SerializeField]
+    private ChooseCountOfPlayers _menu;
+
 
     private countChooserElement _currentCountChooserElement;
 
@@ -32,6 +37,12 @@ public class countChooser : MonoBehaviour
             _currentCountChooserElement.DestroyRedArrow();
             _currentCountChooserElement = GameWorker.Prew<countChooserElement>(_countChooserElements, _currentCountChooserElement);
             _currentCountChooserElement.SpawnRedArrow();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            GameWorker.CountOfHeroes = _currentCountChooserElement.countOfPlayers;
+            _menu.LoadMenu("ChooseHero");
         }
     }
 }
